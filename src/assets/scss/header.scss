@@ -1,0 +1,61 @@
+.header {
+    position: relative;
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    background-image: url(../png/headerbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.header__nav {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.burger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.burger span {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    margin-right: 80px;
+}
+a {
+    color: #fff;
+}
+
+.header__btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.signup {
+    padding-right: 20px;
+}
+.login {
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+    padding: 13px 44px;
+}
